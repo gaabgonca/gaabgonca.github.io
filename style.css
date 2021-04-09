@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: #064929;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#logo {
+  max-height: 10vh;
+  color: #4bba5b;
+}
+
+#maintenance-row {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.blue-text {
+  color: #60d0ad;
+}
+
+#cool-text {
+  max-height: 10vh;
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* #contact-box {
+  position: absolute;
+  bottom: calc(20px + 5vw);
+} */
+
+/* .column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+} */
+
+.email {
+  color: #60d0ad;
+}
+
+.name {
+  font-weight: 700;
+}
+
+#paragraph {
+  min-width: 70vw;
+  text-align: center;
+}
