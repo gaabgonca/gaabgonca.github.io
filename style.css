@@ -7,15 +7,49 @@
 body {
   font-family: 'Roboto', sans-serif;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+  justify-content: center; */
+  /* height: 100vh; */
+  /* overflow: hidden; */
   margin: 0;
   background-color: #064929;
   color: white;
   font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+@media (min-width: 768px) {
+  body {
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  #logo {
+    max-height: 1rem;
+  }
+
+  #contact-box {
+    position: absolute;
+    right: 0;
+    bottom: calc(20px + 5vw);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    left: 0;
+  }
+
+  #main-content {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 30vh;
+    bottom: 0;
+  }
+
+  #cool-text {
+    font-size: 1.5rem;
+  }
 }
 
 h1 {

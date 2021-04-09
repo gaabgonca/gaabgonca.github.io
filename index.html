@@ -24,19 +24,27 @@
     <link rel="stylesheet" href="style.css" />
     <title>Gaio Studios</title>
   </head>
-  <body>
-    <div class="section">
-      <img src="static/logo.svg" id="logo" />
-      <h1>Welcome to Gaio Studios</h1>
-      <div id="maintenance-row">
-        <h2>
+  <body
+    class="is-flex is-flex-direction-column is-vcentered is-justify-content-space-around"
+  >
+    <div class="section" id="main-content">
+      <div
+        class="container is-flex is-flex-direction-column is-align-items-center is-vcentered"
+      >
+        <img src="static/logo.svg" id="logo" />
+        <h1 class="has-text-centered">Welcome to Gaio Studios</h1>
+        <h2 class="has-text-centered">
           This website is currently under
           <em class="blue-text">maintenance</em>
         </h2>
       </div>
-      <div class="container" id="cool-text">
+      <br />
+      <div
+        class="container is-flex is-flex-direction-column"
+        id="cool-text"
+      >
         <!-- A root element for TypeIt to target. -->
-        <span id="paragraph"></span>
+        <span class="has-text-centered" id="paragraph"></span>
         <!-- The script itself, loaded AFTER your root element. -->
         <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
         <script class="text" src="script.js"></script>
@@ -49,21 +57,23 @@
           <div
             class="column is-flex is-flex-direction-column is-align-items-center"
           >
-            <p class="name">Andrés De La Ossa</p>
+            <p class="name has-text-centered">Andrés De La Ossa</p>
             <p>+57 310 739 6171</p>
             <p class="email">andres@gaiostudios.co</p>
           </div>
           <div
             class="column is-flex is-flex-direction-column is-align-items-center"
           >
-            <p class="name">María Fernanda Arteta</p>
+            <p class="name has-text-centered">
+              María Fernanda Arteta
+            </p>
             <p>+57 304 381 0931</p>
             <p class="email">maria@gaiostudios.co</p>
           </div>
           <div
             class="column is-flex is-flex-direction-column is-align-items-center"
           >
-            <p class="name">Gabriel González</p>
+            <p class="name has-text-centered">Gabriel González</p>
             <p>+57 321 545 2493</p>
             <p class="email">gabriel@gaiostudios.co</p>
           </div>
